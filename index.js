@@ -1,100 +1,57 @@
-//1 - Ways to print in javaScript
+// Function 
+// this is simple example of function
+//DRY = DO not repeat yourself
 
-// console.log("Hello World");
-//alert("me");
-//document.wrie("this is document write")
+// function avg(a, b){
+//   return (a + b)/2 
+// }
 
-// 2. javaScript console ApplicationCache
+// c1 = avg(4, 6);
+// c2 = avg(14, 16);
+// console.log(c1, c2);
 
-//  console.log("hello world");
-//  console.warn("this is warning");
-//  console.error("this is error");
+// conditionals in JavaScript
 
- // 3 - JavaScript variables
- //What are variables ? ? - Containers to store data values.
- var numb1 = 34;
- var numb2 = 56;
-//  console.log(numb1 + numb2);
+// var age = 32;
+//signal if sttatement
 
-// 4- Data types in JavaScript
-//Number
-var num1 = 455;
-var num2 = 56.76;
+// if (age >= 18){
+//   console.log('you are drink water');
+// }
 
-//String
-var str1 = "This is String";
-var str1 = "This is  String";
+// if - else statement
 
-//Objects (key, value)
-var marks = {
-  ravi: 45,
-  subham: 78,
-  david: 99.977
-}
-// console.log(marks);
+// if (age >= 18){
+//   console.log('you are drink water');
+// }
+// else{
+//   console.log('you are not drink water');
+// }
 
-//Boolems
-var a = true;
-var b = false;
-// console.log(a);
+// if - else Ladder
+// var age = 34;
 
- // undefuned
- var und;
-//  console.log(und);
+// if(age >=32){
+//   console.log("you are not a kid");
+// }
+// else if(age >=26){
+//   console.log("Bachhe nhi rhe");
+// }
+// else if(age >=33){
+//   console.log(" yes Bachhe nhi rhe");
+// }
+// else if(age >=18){
+//   console.log(" 18 Bachhe nhi rhe");
+// }
+// else{
+//   console.log("Bachhe rhe");
+// }
+// console.log("End of ladder");
 
- //null
- var n = null;
-//  console.log(n);
 
-//  At a very high level, there are two types of data types in JavaScript
-//  1- Primitive data types : undefined, null, number, string, boolean, symbol
-//  2- Reference data types : Arrays and Objects
 
-//Arrays  
-var arr = [1,2,"david",3,4,5]
-// console.log(arr);
-// console.log(arr[2]);
 
-//Operators in JavaScript
 
-// 1 - Arithmtic Operators
-// var a = 34;
-// var b = 56;
-// console.log("The value of a + b is", a+b);
-// console.log("The value of a - b is",a-b);
-// console.log("The value of a * b is",a*b);
-// console.log("The value of a / b is",a/b);
-
-// 2 - Assignment Operators
-var c = b;
-c +=2;
-// console.log(c);
-
-// 3 - comparison Operators
-var x = 34;
-var y = 56;
-// console.log(x == y);
-// console.log(x >= y);
-// console.log(x <= y);
-// console.log(x > y);
-// console.log(x < y);
-
-//Logical and operators
-
-// console.log(true && true);
-// console.log(true && false);
-// console.log(false && false);
-// console.log(false && true);
-
-// logical or operators
-// console.log(true || true);
-// console.log(true || false);
-// console.log(false || false);
-// console.log(false || true);
-
-//such ko jhut our jhut jko such use logical not khte hai
-// console.log(!false);
-// console.log(!true);
 
 
 
